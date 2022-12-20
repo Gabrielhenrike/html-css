@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(180, 180, 252, 0.658);
+}
+
+main {
+    background-color:white;
+    width: 500px;
+    padding: 1em;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 10px 10px 17px;
+}
+
+@font-face {
+    font-family: 'verpertine';
+    src: url('fonts/Vespertine.otf') format('opentype');
+}
+div > p.p1 {
+    display: none;
+}
+
+div:hover > p.p1 {
+    display: block;
+    color: rgb(5, 12, 12);
+    background-color: rgba(111, 111, 245, 0.37);
+    font-family: verpertine, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: verpertine;
+    font-size: 3em;
+    color: rgba(0, 0, 255, 0.349);
+    background-color: rgba(255, 0, 0, 0.363);
+}
+
+p {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+    background-color: aliceblue;
+    text-shadow:  2px 3px 10px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 1.2em;
+}

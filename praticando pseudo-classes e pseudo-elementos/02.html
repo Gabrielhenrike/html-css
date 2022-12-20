@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: yellow;
+        }
+
+        .outro:before {
+            content: '<<';
+            font-weight: bold;
+            color: blue;
+        }
+
+        .outro:after {
+            content: '>>';
+            font-weight: bold;
+            color: blue;
+        }
+
+        .outro {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+        }
+        
+        .pagina {
+            text-align: center;
+            font-family: cursive;
+            font-size: 3em;
+            background-color: rgba(122, 122, 207, 0.274);
+            color: white;
+        }
+
+        .pagina::before {
+            content: '✯';
+            color: black;
+        }
+
+        .pagina::after {
+            content: '✯';
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Conteúdo especial</h1>
+        <div>
+            Passe o mouse aqui
+            <p>SURPRESAAAA!</p>
+        </div>
+        <p>Veja o conteúdo oculto aparecendo!</p>
+        <h1>Outro conteúdo</h1>
+        <div class="outro">
+            Passe o mouse em cima
+            <p>&#x1F62E</p>
+        </div>
+        <p class="pagina"><a href="index.htm">Voltar</a></p>
+    </main>
+</body>
+</html>

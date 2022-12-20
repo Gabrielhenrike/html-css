@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas OL e UL</title>
+    <style>
+        main {
+              padding: auto;
+              margin: auto;
+              border: 10px groove red;
+              outline: 10px solid blue;
+        }
+
+        h1 {
+            font-family: cursive, sans-serif;
+            font-style: italic;
+            background-color: rgba(216, 112, 147, 0.692);
+            color: rgb(126, 255, 21);
+            text-align: center;
+            text-shadow: 5px 2px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Lista UL</h1>
+        <ul type="disc" class="pontos">
+            <li>1024 <strong>bytes</strong> = 1<strong>KB</strong>
+            <li>1024 <strong> KB</strong> = 1<strong>MB</strong>
+                 <ul type="circle" class="pontos">
+                <li>1024 <strong>MB</strong> = 1<strong>GB</strong>
+                <li>1024 <strong>GB</strong> = 1<strong>TB</strong>
+            </ul>
+                     <ul type="square" class="pontos">
+                         <li>1024 <strong>TB</strong> = 1<strong>PB</strong>
+                         <li>1024 <strong>PB</strong> = 1<strong>ZB</strong>
+                    </ul>
+        </ul>
+        <h1>
+            Lista OL+UL
+        </h1>
+        <ol type="i" class="pontos">
+            <li>Nintendo</li>
+            <ol type="1" class="pontos">
+                <li>Mario Bros</li>
+                <ul type="disc" class="pontos">
+                    <li>Super Mario Bros 3</li>
+                    <li>Mario: Yoshi Island</li>
+                </ul>
+            </ol>
+            <li>Playstation</li>
+            <ol type="1" class="pontos">
+                <li>Final Fantasy</li>
+                <ul>
+                    <li>Final Fantasy VII</li>
+                    <li>FInal Fantasy VIII</li>
+                    <li>Final Fanatsy IX</li>
+                </ul>
+            </ol>
+        </ol>
+        <h1>Links Externos</h1>
+        Vamos acessar o <a href="https://google.com" target="_blank" rel="external">Google</a>
+        <br>
+         Vamos acessar o <a href="https://mega.com" target="_blank" rel="external">Mega</a>
+    </main>
+    
+</body>
+</html>

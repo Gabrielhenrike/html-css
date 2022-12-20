@@ -1,0 +1,90 @@
+@import url('./reset-min.css');
+
+body {
+    background-color: #D6D58E;
+}
+
+header {
+    background-color: white;
+    border: 4px solid black;
+    margin: 10px;
+    outline: 1px solid blue;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    color: #042940;
+}
+
+nav {
+    font-size: 24px;
+    font-style: oblique;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a::before {
+    content: '￫';
+}
+
+a::after {
+    content: '￩';
+}
+
+section {
+    background-color: white;
+}
+
+article {
+    margin: 10px;
+}
+ section, article, .mainAside, header {
+    width: auto;
+ }
+
+ header{ grid-area: header;}
+ 
+ article { grid-area: article;}
+
+ .mainAside {grid-area: mAside;}
+ main {
+    margin: 1rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-areas: 
+    'Header Header Header Header'
+    'Article Article Article mAside';
+ }
+
+h2 {
+    margin-bottom: 10px;
+} 
+
+.mainAside {
+    background-color: white;
+    border: 4px solid black;
+    margin: 15px;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+footer {
+    background-color: royalblue;
+    color: whitesmoke;
+    display: grid;
+    justify-content: center;
+    padding: 2rem;
+}
