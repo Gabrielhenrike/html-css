@@ -1,0 +1,43 @@
+@charset "UTC-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.651);
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+
+table {
+    min-width: 500px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+tr#head {
+    background-color: rgb(185, 185, 140);
+    font-weight: 900;
+}
+
+td.mes {
+    background-color: skyblue;
+    font-weight: bold;
+}
