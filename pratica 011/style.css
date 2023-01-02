@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1, nav {
+    margin: -5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #06AA48;
+}
+
+a {
+    margin: 30px;
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+caption {
+    margin: 15px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+table {
+    background-color: white;
+    margin: 30px;
+    border-collapse: collapse;
+    position: relative;
+    color: black;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgba(51, 49, 49, 0.76);
+    color: black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+abbr:hover {
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(imagens/fundo02.jpg);
+    color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    background-color: white;
+    color: black;
+    max-width: 94vw;
+    padding: 25px;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 7vh;
+    text-indent: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-indent: 25px;
+    padding: 10px;
+    margin: 5px;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 25px;
+    padding: 10px;
+    margin: 5px;
+    line-height: 35px;
+}
+
+p > img {
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+span {
+    width: auto;
+    margin-left: 20px;
+}
