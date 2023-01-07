@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(130, 130, 235, 0.836);
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(173, 166, 166, 0.849);
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+div#form02 {
+    margin-top: -10px;
+}
