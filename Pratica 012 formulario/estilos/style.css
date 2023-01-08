@@ -17,6 +17,10 @@ div {
     border-radius: 10px;
 }
 
+div:nth-child(even) {
+    background-color: lightblue;
+}
+
 div#form02 {
     margin-top: -10px;
 }

@@ -10,9 +10,10 @@
 <body>
     <h1>Treinando Formulários</h1>
     <div id="form01">
-       <fieldset>
+      <form action="cadastro.php" method="get">
+        <fieldset>
         <legend>Dados Pessoais</legend>
-           <form action="cadastro.php" method="get">
+           
             <div>
                 <label for="inome">Nome</label>
                 <input type="text" name="nome" id="inome" placeholder="Nome Completo" autocomplete="name" required>
@@ -58,30 +59,15 @@
                 <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Email" required>
             </div>
             <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                <input type="radio" name="sexo" id="isxmas" value="M" required> <label for="isxmas">Masculino</label>
+                <input type="radio" name="sexo" id="isxfem" value="F" required> <label for="isxmas">Feminino</label>
             </div>
-           </form>
        </fieldset> 
-    </div>
-    <div id="form02">
-        <fieldset>
-            <legend>Local e Hora da Prova</legend>
-            <form action="cadastro.php">
-                <div>
-                    <label for="ilocal">Local da Prova</label>
-                    <input type="text" name="local" id="ilocal" placeholder="Local da Prova" required>
-                </div>
-                <div>
-                    <label for="ihoradata">Dia e Hora da Prova</label>
-                    <input type="datetime-local" name="horadata" id="ihoradata">
-                </div>
                 <div>
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Limpar">
-                </div>
-            </form>
-        </fieldset>
+                </div>          
+    </form>
     </div>
 </body>
 </html>
