@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.flex-container {
+    display: flex;
+    align-self: 2;
+    
+}
+
+.um {
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 140px;
+    font-size: 5em;
+    text-align: center;
+}
+
+.dois {
+    background-color: blue;
+    color: white;
+    width: 140px;
+    height: 140px;
+    font-size: 5em;
+    text-align: center;
+}
+
+.tres {
+    background-color: green;
+    color: white;
+    width: 140px;
+    height: 140px;
+    font-size: 5em;
+    text-align: center;
+}
