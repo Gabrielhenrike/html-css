@@ -25,7 +25,7 @@
             padding: 10px;
         }
         tr:nth-child(even) {
-            background-color: rgb(228, 228, 228);
+            background-color: lightcoral
         }
 
         div#container {
@@ -41,7 +41,7 @@
         <table>
             <caption>Tabelas Responsivas</caption>
             <thead>
-                <tr>
+                <tr id="one">
                     <th>Produto</th>
                     <th>Jan</th>
                     <th>Fev</th>
@@ -166,5 +166,10 @@
             </tbody>
         </table>
     </div>
+
+    <script>
+        var linha1 = window.document.querySelector('tr#one')
+        linha1.style.background = 'skyblue'
+    </script>
 </body>
 </html>
